@@ -5,32 +5,30 @@ import './cardEvent.css';
 function Card() {
   return (
     <div className='card'>
-        <h1>Check Out Our Uncoming Events</h1>
+        <h1>Highlights Of The Festival</h1>
         <div className='card__container'>
         <div className='card__wrapper'>
             <ul className='card__event'>
                 <EventCard 
-                src="images/img-9.jpg" 
-                text="Aftersun"
-                label='Adventure'
-                path='/locations'
-                location='Glasgow Film Theatre'
-                date='20th March'
+                src="images/img-8.jpg" 
+                title="Clueless"
+                genre='Comedy'
+                location='CCA'
+                date='17th March'
+
                 />
                 <EventCard 
                 src="images/img-3.jpg" 
-                text="Avatar"
-                label='Horror'
-                path='/locations'
+                title="John Wick"
+                genre='Action'
                 location='Cineworld'
                 date='6th March'
                 />
                 <EventCard 
                 src="images/img-2.jpg" 
-                text="Finding Nemo"
-                label='Drama'
-                path='/locations'
-                location='IMAX'
+                title="Anchorman"
+                genre='Comedy'
+                location='Everyman'
                 date='2nd March'
                 />
             </ul>

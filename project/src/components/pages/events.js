@@ -1,9 +1,13 @@
 import React from 'react';
 import '../../App.css';
+import Event from '../Event';
 
 export default function Events() {
   return (
-   <h1 className='events'>Our Events</h1>
+      <>
+      <Event />
+
+      </>
   )
 }
 

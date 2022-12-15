@@ -10,10 +10,8 @@ function Main() {
         <h1>Join us this March!</h1>
         <p>Running March 2nd - March 23rd</p>
         <div className='main-btns'>
-            <Button className='btns' buttonStyle='btn--outline'
-            buttonSize='btn--large'>View Events</Button>
             <Button className='btns' buttonStyle='btn--primary'
-            buttonSize='btn--large'>Locations</Button>
+            buttonSize='btn--large'>All Events</Button>
         </div>
     </div>
   )

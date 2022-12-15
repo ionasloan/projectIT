@@ -35,7 +35,6 @@ function Navbar() {
             {/* Logo Area */}
             <Link to="/" className="navbar-logo" onClick="{closeMobileMenu}">
                 Glasgow Film Festival
-                <i className='fab fa-typo3'/>
             </Link>  
             
             {/* Hamburger Area */}
