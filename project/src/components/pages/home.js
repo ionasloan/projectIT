@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../App.css';
 import Main from '../main';
-
+import Footer from '../footer';
 import Card from '../card';
 
 function Home () {
@@ -9,6 +9,7 @@ function Home () {
         <>
         <Main />
         <Card />
+        <Footer />
         </>
     );
 }
