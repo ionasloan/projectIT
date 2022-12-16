@@ -8,10 +8,7 @@ function Footer() {
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
-            <Link to="/" className="navbar-logo" onClick="{closeMobileMenu}">
-              Glasgow Film Festival
-            </Link>
-
+            <h1 class="footer--logo"> Glasgow Film Festival</h1>
           </div>
           <small class='copyright'>GFF - (This is a fictitious site) © 2022</small>
           <div class='social-icons'>

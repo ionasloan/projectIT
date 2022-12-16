@@ -1,3 +1,8 @@
+h1{
+    color: #000000;  
+}
+
+
 .form{
     padding-top: 50px;
     margin: auto;
@@ -12,7 +17,6 @@ input[type=text], [type=password] {
       font-size: 20px;
     }
     
-
 button{
         background-color: #000000;
         border: none;
@@ -24,7 +28,7 @@ button{
         cursor: pointer;
         }
 
-    .button{
+.button{
         margin:auto;
         width: 40%;
       }

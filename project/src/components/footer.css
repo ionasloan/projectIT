@@ -1,4 +1,9 @@
+.footer--logo{
+  color: #fff;
+  padding-bottom: 20px;
 
+
+}
 .footer-container {
     background-color: #242424;
     padding: 1rem 0 2rem 0;
@@ -10,12 +15,12 @@
     left: 0;
     right: 0;
     position: fixed;
-    padding-bottom: 5px;
-    padding-top: 0px;
+    padding-bottom: 3px;
+    padding-top: 10px;
   }
   
   
-  /* Social Icons */
+  /* Social Media bits  */
   .social-icon-link {
     color: #fff;
     font-size: 24px;
@@ -40,6 +45,7 @@
     justify-content: space-between;
     align-items: center;
     width: 240px;
+    padding-bottom: 20px; 
   }
   
   .social-logo {

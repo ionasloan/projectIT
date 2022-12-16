@@ -4,12 +4,11 @@ import './about.css';
 function Aboutus() {
   return (
     <div class="about">
-        <h1>About</h1>
+        <h1 class="about--heading">About</h1>
         <div class="image">
             <img src="./images/gff.jpg" alt="gff"/>
         </div>
-        
-        <h2>Glasgow is one of the friendliest film festivals on the planet with a wide-ranging programme 
+        <h2 class="about--text">Glasgow is one of the friendliest film festivals on the planet with a wide-ranging programme 
             that celebrates every corner of world cinema and provides a fantastic showcase for the best of 
             Scottish film. The 2023 edition will take place from the 2nd tothe 23rd March from 
             our beloved Glasgow Film Theatre, at selected venues across the city, our online player 
