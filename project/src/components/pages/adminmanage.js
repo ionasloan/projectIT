@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../App.css';
-import ManageEvents from '../about';
+import ManageEvents from '../manageevents';
 import Footer from '../footer';
 
 
