@@ -1,6 +1,7 @@
 import React from 'react';
 import EventItem from './adminevents';
 import './events.css';
+//ADMIN EVENTS //
 
 function Admin() {
   return (
