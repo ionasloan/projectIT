@@ -1,9 +1,13 @@
-import React from 'react';
+import React from 'react'
 import '../../App.css';
+import Login from '../Login';
 
-export default function Login () {
-  return (
-   <h1 className='login'>Log In Here</h1>
-  )
+function Login () {
+  return(
+      <>
+      <Login />
+      </>
+  );
 }
 
+export default Login;
