@@ -1,21 +1,42 @@
+.about{
+    background-color: #222222;
+}
+
 h1 
 {
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 60px;
+    color: #ffffff;
 }
 
 h2{
     padding-top: 40px;
     text-align: center;
+    padding-bottom: 30px;
+    color: #ffffff;
 }
 
 h3{
-    padding-top: 40px;
+    padding-top: 30px;
     text-align: center;
+    padding-bottom: 30px;
+    color: #ffffff;
 }
 
 .image{
     display: flex;
     justify-content: center;
+}
+
+img{
+    width: 50%;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    img{
+        width: 100%;
+    }
 }
