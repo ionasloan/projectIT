@@ -7,6 +7,7 @@ import Locations from './components/pages/locations';
 import Events from './components/pages/events';
 import About from './components/pages/about';
 import Login from './components/pages/login';
+import Admin from './components/pages/adminevents';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path='/events' element={<Events />}/>
             <Route path='/about' element={<About />}/>
             <Route path='/login' element={<Login/>}/>
+            <Route path='/adminevents' element={<Admin/>}/>
         </Routes>
     </Router>
     </>
