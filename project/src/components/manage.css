@@ -1,7 +1,13 @@
+.table{
+    width: 80%;
+    margin: auto;
+}
+
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
+    overflow-x:auto;
   }
   
   td, th {
@@ -12,4 +18,13 @@ table {
   
   tr:nth-child(even) {
     background-color: #dddddd;
+  }
+
+  button{
+    background-color: #303030;
+    height: 30px;
+    font-size: 20px;
+    margin: auto;
+    padding-top: 2px;
+    padding-bottom: 2px;
   }

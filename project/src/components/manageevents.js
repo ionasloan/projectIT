@@ -3,6 +3,8 @@ import './manage.css';
 
 function ManageEvents() {
   return (
+
+    <div class="table">
     <table>
   <tr>
     <th>Title</th>
@@ -105,6 +107,8 @@ function ManageEvents() {
   </tr>
   
 </table>
+
+</div>
   );
 }
 
