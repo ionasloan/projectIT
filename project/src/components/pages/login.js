@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../App.css';
+import '../login.css';
 
 class Login extends React.Component {
   
@@ -49,7 +50,7 @@ class Login extends React.Component {
     
   render() {
     return (
-      <div className="container" style={{ paddingTop: "5%" }}>
+      <div class="form">
 
         <h1 className='login'>Log In Here</h1>
         <form
