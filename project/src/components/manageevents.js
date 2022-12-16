@@ -1,52 +1,45 @@
 import React from 'react';
-import './admin.css';
+import './login.css';
 
-function ManageEvent() {
-  return (
-    <div className='card'>
-        <h1>Manage the Events</h1>
-        <h3>Here you can edit or delete an event</h3>
-        
-        <table>
-  <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
-  </tr>
-  <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
-  </tr>
-  <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
-  </tr>
-  <tr>
-    <td>Ernst Handel</td>
-    <td>Roland Mendel</td>
-    <td>Austria</td>
-  </tr>
-  <tr>
-    <td>Island Trading</td>
-    <td>Helen Bennett</td>
-    <td>UK</td>
-  </tr>
-  <tr>
-    <td>Laughing Bacchus Winecellars</td>
-    <td>Yoshi Tannamuri</td>
-    <td>Canada</td>
-  </tr>
-  <tr>
-    <td>Magazzini Alimentari Riuniti</td>
-    <td>Giovanni Rovelli</td>
-    <td>Italy</td>
-  </tr>
-</table>
+class ManageEvent extends React.Component {
     
-    </div>
-  );
+  render() {
+    return (
+      <div className="container" style={{ paddingTop: "5%" }}>
+
+      <h1 className='login'>Log In Here</h1>
+        <form class="form"
+          onSubmit={e => {
+            this.submitForm(e);
+          }}
+        >
+          <div className="form-group">
+            <input
+              type="text"
+              className="form-control"
+              name="username"
+              placeholder="Username"
+              onChange={e => this.changeInputValue(e)}
+            />
+          </div>
+          <div className="form-group">
+            <input
+              type="password"
+              className="form-control"
+              name="password"
+              placeholder="Password"
+              onChange={e => this.changeInputValue(e)}
+              
+            />
+          </div>
+          <button class="button" value="submit" className="btn btn-primary" onClick={this.postDetails}>
+            Submit
+          </button>
+        </form>
+      </div>
+    
+    );
+  }
 }
 
-export default ManageEvent
+export default ManageEvent;
