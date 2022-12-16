@@ -5,7 +5,7 @@ import './events.css';
 function Event() {
   return (
     <div className='card'>
-        <h1>Our Events</h1>
+        <h1 class="h1">Our Events</h1>
         <div className='card__container'>
         <div className='card__wrapper'>
             <ul className='card__event'>
