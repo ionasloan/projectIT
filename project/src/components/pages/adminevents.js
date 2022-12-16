@@ -1,1 +1,12 @@
-<h1>HI</h1>
+import React from 'react';
+import '../../App.css';
+
+export default function Admins() {
+  return (
+      <>
+      <Admin />
+
+      </>
+  )
+}
+
