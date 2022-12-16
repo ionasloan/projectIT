@@ -1,5 +1,5 @@
 import React from 'react';
-import EventCard from './cardEvent';
+import EventCard from './admin/cardEvent';
 import './cardEvent.css';
 
 function Card() {

@@ -1,5 +1,5 @@
 import React from 'react';
-import EventItem from './events';
+import EventItem from './admin/events';
 import './events.css';
 
 function Event() {
