@@ -11,7 +11,6 @@ export default function Login () {
 */
 
 import React from 'react';
-import { redirect } from 'react-router-dom';
 import '../../App.css';
 
 class Login extends React.Component {
@@ -54,8 +53,7 @@ class Login extends React.Component {
     if (validation.error) {
       alert(validation.msg)
     }else if(username === 'username' && password === 'password') {
-      alert("Login successful");
-      redirect("/");
+      window.location = "/";
     }else {
       alert("Wrong password or username");
     }
