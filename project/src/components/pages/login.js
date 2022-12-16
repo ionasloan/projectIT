@@ -1,13 +1,13 @@
-import React from 'react'
+import React from 'react';
 import '../../App.css';
-import Login from '../Login';
+import Login from './login.js';
 
-function Login () {
-  return(
-      <>
-      <Login />
-      </>
-  );
+export default function Logins() {
+  return (
+    <>
+    <Login />
+
+    </>
+  )
 }
 
-export default Login;
