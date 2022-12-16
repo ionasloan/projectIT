@@ -44,6 +44,10 @@
     text-decoration: none;
   }
   
+  .h1{
+    color: #000000;
+  }
+
   .card__event__pic-wrap {
     position: relative;
     width: 100%;

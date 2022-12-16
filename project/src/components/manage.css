@@ -20,7 +20,7 @@ table {
     background-color: #dddddd;
   }
 
-  button{
+  .editdelete{
     background-color: #303030;
     height: 30px;
     font-size: 20px;

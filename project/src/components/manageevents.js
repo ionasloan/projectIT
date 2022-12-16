@@ -24,8 +24,8 @@ function ManageEvents() {
     <td>anchorman.jpg</td>
     <td>122 minutes</td>
     <td>The Legend of Ron Burgundy is a 2004 American satirical comedy film directed by Adam McKay in his directorial debut.</td>
-    <td><button>EDIT</button></td>
-    <td><button>DELETE</button></td>
+    <td><button class="editdelete">EDIT</button></td>
+    <td><button class="editdelete">DELETE</button></td>
   </tr>
   
     <tr>
@@ -35,8 +35,8 @@ function ManageEvents() {
     <td>johnwick.jpg</td>
     <td>134 minutes</td>
     <td>John Wick is a 2014 American neo-noir action thriller film directed by Chad Stahelski and written by Derek Kolstad.</td>
-    <td><button>EDIT</button></td>
-    <td><button>DELETE</button></td>
+    <td><button class="editdelete">EDIT</button></td>
+    <td><button class="editdelete">DELETE</button></td>
   </tr>
   
     <tr>
@@ -46,8 +46,8 @@ function ManageEvents() {
     <td>shining.jpg</td>
     <td>125 minutes</td>
     <td>The Shining is a 1980 psychological horror film produced and directed by Stanley Kubrick and co-written with novelist Diane Johnson.</td>
-    <td><button>EDIT</button></td>
-    <td><button>DELETE</button></td>
+    <td><button class="editdelete">EDIT</button></td>
+    <td><button class="editdelete">DELETE</button></td>
   </tr>
   
     <tr>
@@ -57,8 +57,8 @@ function ManageEvents() {
     <td>whitechicks.jpg</td>
     <td>86 minutes</td>
     <td>White Chicks is a 2004 American comedy film directed by Keenen Ivory Wayans. It stars Shawn Wayans and Marlon Wayans as two FBI agents who go undercover.</td>
-    <td><button>EDIT</button></td>
-    <td><button>DELETE</button></td>
+    <td><button class="editdelete">EDIT</button></td>
+    <td><button class="editdelete">DELETE</button></td>
   </tr>
    
     <tr>
@@ -68,8 +68,8 @@ function ManageEvents() {
     <td>starwars.jpg</td>
     <td>140 minutes</td>
     <td>Star Wars is an American epic space opera multimedia franchise created by George Lucas, which began with the eponymous 1977.</td>
-    <td><button>EDIT</button></td>
-    <td><button>DELETE</button></td>
+    <td><button class="editdelete">EDIT</button></td>
+    <td><button class="editdelete">DELETE</button></td>
   </tr>
   
     <tr>
@@ -79,8 +79,8 @@ function ManageEvents() {
     <td>annabelle.jpg</td>
     <td>110 minutes</td>
     <td>Annabelle is a 2014 American supernatural horror film directed by John R. Leonetti, written by Gary Dauberman and produced by Peter Safran and James Wan.</td>
-    <td><button>EDIT</button></td>
-    <td><button>DELETE</button></td>
+    <td><button class="editdelete">EDIT</button></td>
+    <td><button class="editdelete">DELETE</button></td>
   </tr>
   
   
@@ -91,8 +91,8 @@ function ManageEvents() {
     <td>clueless.jpg</td>
     <td>95 minutes</td>
     <td>Clueless is a 1995 American coming-of-age teen comedy film written and directed by Amy Heckerling.</td>
-    <td><button>EDIT</button></td>
-    <td><button>DELETE</button></td>
+    <td><button class="editdelete">EDIT</button></td>
+    <td><button class="editdelete">DELETE</button></td>
   </tr>
   
     <tr>
@@ -102,8 +102,8 @@ function ManageEvents() {
     <td>pulpfiction.jpg</td>
     <td>150 minutes</td>
     <td>Pulp Fiction is a 1994 American crime film written and directed by Quentin Tarantino, who conceived it with Roger Avary.</td>
-    <td><button>EDIT</button></td>
-    <td><button>DELETE</button></td>
+    <td><button class="editdelete">EDIT</button></td>
+    <td><button class="editdelete">DELETE</button></td>
   </tr>
   
 </table>
