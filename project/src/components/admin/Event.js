@@ -1,6 +1,6 @@
 import React from 'react';
 import EventItem from './admin/events';
-import './events.css';
+import './admin/events.css';
 
 function Event() {
   return (

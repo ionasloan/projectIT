@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../App.css';
-import Event from '../Admin/Event';
+import Event from '../admin/Event';
 
 export default function Events() {
   return (

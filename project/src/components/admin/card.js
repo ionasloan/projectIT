@@ -1,6 +1,6 @@
 import React from 'react';
 import EventCard from './admin/cardEvent';
-import './cardEvent.css';
+import './admin/cardEvent.css';
 
 function Card() {
   return (
