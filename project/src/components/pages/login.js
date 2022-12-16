@@ -77,9 +77,11 @@ class Login extends React.Component {
               
             />
           </div>
+          <div class="button">
           <button value="submit" className="btn btn-primary" onClick={this.postDetails}>
             Submit
           </button>
+          </div>
         </form>
       </div>
     
