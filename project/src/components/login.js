@@ -1,5 +1,5 @@
 import React from 'react';
-//import './login.css';
+import './login.css';
 
 class Loginhere extends React.Component {
   
@@ -52,7 +52,7 @@ class Loginhere extends React.Component {
       <div className="container" style={{ paddingTop: "5%" }}>
 
       <h1 className='login'>Log In Here</h1>
-        <form
+        <form class="form"
           onSubmit={e => {
             this.submitForm(e);
           }}
@@ -76,7 +76,7 @@ class Loginhere extends React.Component {
               
             />
           </div>
-          <button value="submit" className="btn btn-primary" onClick={this.postDetails}>
+          <button class="button" value="submit" className="btn btn-primary" onClick={this.postDetails}>
             Submit
           </button>
         </form>

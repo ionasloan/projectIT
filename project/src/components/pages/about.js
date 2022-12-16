@@ -1,9 +1,12 @@
 import React from 'react';
 import '../../App.css';
+import Aboutus from '../about';
+
 
 export default function About() {
   return (
-   <h1 className='about'>About The Festival</h1>
+      <>
+      <Aboutus />
+      </>
   )
 }
-
