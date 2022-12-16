@@ -4,8 +4,9 @@ import { Link } from 'react-router-dom'
 function EventItem(props) {
   return (
    <>
+   {/* info on the events card */}
     <li className='card__event'>
-        <Link className='card__event__link' to={props.path}>
+        <Link className='card__event__link'>
           <figure className='card__event__pic-wrap' data-category={props.genre}>
             <img
               className='card__event__img'
@@ -19,7 +20,6 @@ function EventItem(props) {
             <p className='card__event__date'>{props.date}</p>
             <p className='card__event__running'>{props.runningTime}</p>
             <p className='card__event__plot'>{props.plot}</p>
-           
           </div>
         </Link>
       </li>
