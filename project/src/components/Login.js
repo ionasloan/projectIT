@@ -1,5 +1,4 @@
 import React from 'react';
-import Logins from './pages/login.js';
 
 function Login(){
       return (
