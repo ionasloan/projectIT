@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function adminEventItem(props) {
+function adminEventCard(props) {
   return (
    <>
     <li className='card__event'>
@@ -17,9 +17,6 @@ function adminEventItem(props) {
             <h5 className='card__event__text'>{props.title}</h5>
             <h6 className='card__event__location'>{props.location}</h6>
             <p className='card__event__date'>{props.date}</p>
-            <p className='card__event__running'>{props.runningTime}</p>
-            <p className='card__event__plot'>{props.plot}</p>
-           
           </div>
         </Link>
       </li>
@@ -27,4 +24,4 @@ function adminEventItem(props) {
   )
 }
 
-export default adminEventItem
+export default adminEventCard
