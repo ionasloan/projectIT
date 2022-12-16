@@ -1,7 +1,7 @@
 import React from 'react';
 import EventCard from './admincardEvent';
 import './cardEvent.css';
-
+//admin//
 function adminCard() {
   return (
     <div className='card'>
