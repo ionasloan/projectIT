@@ -8,37 +8,44 @@ function Footer() {
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
-          <Link to="/" className="navbar-logo" onClick="{closeMobileMenu}">
-                Glasgow Film Festival
-            </Link>  
-           
+            <Link to="/" className="navbar-logo" onClick="{closeMobileMenu}">
+              Glasgow Film Festival
+            </Link>
+
           </div>
           <small class='copyright'>GFF - (This is a fictitious site) © 2022</small>
           <div class='social-icons'>
-            <Link
+
+            <a
               class='social-icon-link facebook'
-              to='/'
+              href="https://www.facebook.com/glasgowfilmfestival"
               target='_blank'
+              rel="noopener"
               aria-label='Facebook'
             >
               <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
+            </a>
+
+            <a
               class='social-icon-link instagram'
-              to='/'
+              href="https://www.instagram.com/glasgowfilmfest/?hl=en"
               target='_blank'
+              rel="noopener"
               aria-label='Instagram'
             >
               <i class='fab fa-instagram' />
-            </Link>
-            <Link
+            </a>
+
+            <a
               class='social-icon-link twitter'
-              to='/'
+              href="https://twitter.com/glasgowfilmfest?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
               target='_blank'
+              rel="noopener"
               aria-label='Twitter'
             >
               <i class='fab fa-twitter' />
-            </Link>
+            </a>
+
           </div>
         </div>
       </section>
