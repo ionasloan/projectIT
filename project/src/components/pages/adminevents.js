@@ -1,11 +1,11 @@
 import React from 'react';
 import '../../App.css';
-import Admin from '../admin';
+import AdminItem from '../admin';
 
-export default function Admins() {
+export default function Admin() {
   return (
       <>
-      <Admin />
+      <AdminItem />
       </>
   )
 }

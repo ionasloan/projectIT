@@ -58,11 +58,3 @@ function Location() {
 }
 
 export default Location
-
-{/* <div className='card__location__info'>
-            <h5 className='card__location__text'>{props.name}</h5>
-            <h6 className='card__location__location'>{props.address}</h6>
-            <p className='card__location__date'>{props.phone}</p>
-            <p className='card__location__running'>{props.website}</p>
-           
-          </div> */}

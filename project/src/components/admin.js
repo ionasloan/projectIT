@@ -1,12 +1,12 @@
 import React from 'react';
-import EventItem from './adminevents';
-import './events.css';
-//ADMIN EVENTS //
+import EventItem from './events';
+import './admin.css';
 
-function Admin() {
+function AdminEvent() {
   return (
     <div className='card'>
-        <h1>Our Events</h1>
+        <h1>Manage the Events</h1>
+        <h3>Here you can create, edit or delete an event</h3>
         <div className='card__container'>
         <div className='card__wrapper'>
             <ul className='card__event'>
@@ -108,4 +108,4 @@ function Admin() {
   );
 }
 
-export default Admin
+export default AdminEvent
