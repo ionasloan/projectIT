@@ -1,12 +1,11 @@
 import React from 'react';
 import './about.css';
-import gff from 'gff.jpg';
 
 function Aboutus() {
   return (
     <div className='card'>
         <div>
-            <img src={gff} alt="gff"/>
+            <img src="./images/gff.jpg" alt="gff"/>
         </div>
         <h1>About</h1>
         <h3>Glasgow is one of the friendliest film festivals on the planet with a wide-ranging programme 
