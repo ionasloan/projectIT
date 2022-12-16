@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import gff from '...images/gff.jpg';
+import gff from 'gff.jpg';
 
 function Aboutus() {
   return (
