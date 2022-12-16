@@ -53,7 +53,7 @@ class Login extends React.Component {
     if (validation.error) {
       alert(validation.msg)
     }else if(username === 'iona.sloan@gmail.com' && password === 'password') {
-      return('/');
+      return("Login successful");
     }else {
       alert("Wrong password or username");
     }
