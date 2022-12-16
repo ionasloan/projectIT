@@ -1,6 +1,7 @@
 import React from 'react';
+import Login from './pages/login';
 
-function Login(){
+function Logins(){
       return (
         <div className="container" style={{ paddingTop: "5%" }}>
   
