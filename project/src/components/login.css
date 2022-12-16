@@ -1,7 +1,6 @@
 .form{
     padding-top: 50px;
-    margin: auto;
-    width: 40%;
+    margin-left: 100px;
     }
     
 input[type=text], [type=password] {
