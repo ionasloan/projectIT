@@ -5,7 +5,7 @@ import './location.css';
 function Location() {
   return (
     <div className='card'>
-        <h1>Our Locations</h1>
+        <h1 class="h1">Our Locations</h1>
         <div className='card__container'>
         <div className='card__wrapper'>
             <ul className='card__location'>

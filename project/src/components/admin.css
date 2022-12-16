@@ -132,6 +132,19 @@ h3 {
   line-height: 20px;
 }
 
+.manageevents{
+  width: 30%;
+  margin: auto;
+}
+
+.manageeventsbutton{
+  font-size: 40px;
+  height: 60px;
+  padding: 10px;
+}
+
+
+
 @media only screen and (min-width: 1200px) {
   .content__blog__container {
     width: 84%;
