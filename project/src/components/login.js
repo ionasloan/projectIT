@@ -40,7 +40,7 @@ class Loginhere extends React.Component {
     var password = e.target.elements.password.value;
     if (validation.error) {
       alert(validation.msg)
-    }else if(username === 'iona.sloan@gmail.com' && password === 'password') {
+    }else if(username === 'gff1234@gmail.com' && password === 'password') {
       window.location = "/adminevents";
     }else {
       alert("Wrong password or username");
