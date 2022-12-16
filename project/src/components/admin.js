@@ -5,8 +5,13 @@ import './admin.css';
 function AdminEvent() {
   return (
     <div className='card'>
-        <h1>Manage the Events</h1>
-        <h3>Here you can create, edit or delete an event</h3>
+
+        <a href="/adminmanage">
+            <div class="manageevents">
+            <button class="manageeventsbutton">Manage Events</button>
+            </div>
+        </a>
+
         <div className='card__container'>
         <div className='card__wrapper'>
             <ul className='card__event'>
