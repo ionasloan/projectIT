@@ -107,4 +107,4 @@ function Admin() {
   );
 }
 
-export default Event
+export default Admin
